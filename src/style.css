@@ -1,0 +1,89 @@
+@font-face{
+    font-family: Technology;
+    src: url(./fonts/Technology.otf) format("opentype");
+    src: url(./fonts/Technology.ttf) format("truetype");
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #141414;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Technology', sans-serif;
+    line-height: 0.2;
+}
+
+/* Estilo para telas de celulares (até 719px) */
+@media only screen and (max-width: 719px) {
+    #counter {
+        font-size: 60px; /* Fonte menor */
+        color: #ffd8d8;
+        text-shadow: 
+            .2vw 0vw .3vw #ffd8d8, .4vw 0vw .3vw #ffd8d8, .6vw 0vw .3vw #ffd8d8, 
+            .2vw 0vw .2vw #f25757, .4vw 0vw .2vw #f25757, .6vw 0vw .2vw #f25757,
+            .2vw 0vw 1.5vw #f25757, .4vw 0vw 1.5vw #f25757, .6vw 0vw 1.5vw #f25757, 
+            .2vw 0vw 3vw #e50b0b, .4vw 0vw 3vw #e50b0b, .6vw 0vw 6vw #e50b0b;
+    }
+
+    .quote {
+        font-size: 18px; /* Fonte menor */
+        color: #ffd8d8;
+        text-shadow: 
+            .2vw 0vw .2vw #f25757, .4vw 0vw .2vw #f25757, .6vw 0vw .2vw #f25757,
+            .2vw 0vw 1.5vw #f25757, .4vw 0vw 1.5vw #f25757, .6vw 0vw 1.5vw #f25757, 
+            .2vw 0vw 3vw #e50b0b, .4vw 0vw 3vw #e50b0b, .6vw 0vw 6vw #e50b0b;
+    }
+}
+
+
+/* Estilo para telas de tablets (entre 720px e 1280px) */
+@media only screen and (min-width: 720px) and (max-width: 1280px) {
+    #counter {
+        font-size: 150px;
+        color: #ffd8d8;
+        text-shadow: 
+            .1vw 0vw .2vw #ffd8d8, .2vw 0vw .2vw #ffd8d8, .3vw 0vw .2vw #ffd8d8, 
+            .1vw 0vw .1vw #f25757, .2vw 0vw .1vw #f25757, .3vw 0vw .1vw #f25757,
+            .1vw 0vw 1vw #f25757, .2vw 0vw 1vw #f25757, .3vw 0vw 1vw #f25757, 
+            .1vw 0vw 2vw #e50b0b, .2vw 0vw 2vw #e50b0b, .3vw 0vw 4vw #e50b0b;
+    }
+
+    .quote {
+        font-size: 35px;
+        color: #ffd8d8;
+        text-shadow: 
+            .1vw 0vw .1vw #f25757, .2vw 0vw .1vw #f25757, .3vw 0vw .1vw #f25757,
+            .1vw 0vw 1vw #f25757, .2vw 0vw 1vw #f25757, .3vw 0vw 1vw #f25757, 
+            .1vw 0vw 2vw #e50b0b, .2vw 0vw 2vw #e50b0b, .3vw 0vw 4vw #e50b0b;
+    }
+}
+
+/* Estilo para telas de computadores (acima de 1280px) */
+@media only screen and (min-width: 1281px) {
+    #counter {
+        font-size: 250px;
+        color: #ffd8d8;
+        text-shadow: 
+            .1vw 0vw .25vw #ffd8d8, .2vw 0vw .25vw #ffd8d8, .4vw 0vw .25vw #ffd8d8, 
+            .1vw 0vw .1vw #f25757, .2vw 0vw .1vw #f25757, .4vw 0vw .1vw #f25757,
+            .1vw 0vw 2vw #f25757, .2vw 0vw 2vw #f25757, .4vw 0vw 2vw #f25757, 
+            .1vw 0vw 1vw #e50b0b, .2vw 0vw 1vw #e50b0b, .4vw 0vw 5vw #e50b0b, 
+            .1vw 0vw 5vw #e50b0b, .2vw 0vw 20vw #e50b0b, .4vw 0vw 10vw #e50b0b;
+    }
+
+    .quote {
+        font-size: 50px;
+        color: #ffd8d8;
+        text-shadow: 
+            .1vw 0vw .1vw #f25757, .2vw 0vw .1vw #f25757, .4vw 0vw .1vw #f25757,
+            .1vw 0vw 2vw #f25757, .2vw 0vw 2vw #f25757, .4vw 0vw 2vw #f25757, 
+            .1vw 0vw 1vw #e50b0b, .2vw 0vw 1vw #e50b0b, .4vw 0vw 5vw #e50b0b;
+    }
+}
