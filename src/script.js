@@ -1,7 +1,8 @@
+console.log("nokturnalplague");
+
 // Set the date we're counting down to
 var countDownDate = new Date("Sep 12, 2024 20:30:00").getTime();
 
-// Função que faz o cálculo e exibe o contador
 function updateCounter() {
     // Get today's date and time
     var now = new Date().getTime();
@@ -30,8 +31,6 @@ function updateCounter() {
     }
 }
 
-// Executa a função imediatamente
 updateCounter();
 
-// Atualiza o contador a cada 1 segundo
 var x = setInterval(updateCounter, 1000);
