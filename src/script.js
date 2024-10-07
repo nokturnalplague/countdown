@@ -1,7 +1,7 @@
 console.log("nokturnalplague");
 
 // Set the date we're counting down to
-var countDownDate = new Date("Sep 12, 2024 20:30:00").getTime();
+var countDownDate = new Date("Nov 16, 2024 22:00:00").getTime();
 
 function updateCounter() {
     // Get today's date and time
